@@ -51,13 +51,15 @@ console.log(sub1);
 var rrr =new Set([1,2,3,4,56,585,78]);
 console.log(rrr.has(585));
 
-//size --> To get the size of the set
-
-const length =new Set(['dani',1,2,null,3,true]);
-console.log(length.size);
-
 //Set are objects --> we use typeof to check it 
 const type1 =new Set([1,2,true,3,4,5,[8,9,2],null]);
 console.log(typeof(type1));
+
+//Set properties --> An object is a collection of properties, and a property is an association between a keys & values pairs
+//Size comes under (set properties) 
+//size --> To get the size of the set 
+
+const length =new Set(['dani',1,2,null,3,true]);
+console.log(length.size);
 
 //THANK YOU :)
